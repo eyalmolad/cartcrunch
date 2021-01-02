@@ -1,0 +1,275 @@
+/*
+
+
+
+*/
+
+
+body, html
+{
+    height: 100%;
+}
+
+html
+{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-color: #FFFFFF;
+    background-origin: padding-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+    background-attachment: scroll;
+    background-clip: border-box;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#upperGradient
+{
+    background: linear-gradient(to bottom, #FFFFFF, rgba(255, 255, 255, 0) 72%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #000000;
+    height: 149px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1160px;
+    z-index: 67;
+}
+
+#logoDiv
+{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    width: 191px;
+    z-index: 68;
+    padding-top: 20px;
+}
+
+#page 
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+    padding-bottom: 0;
+    padding-left: 170px;
+    padding-top: 18px;
+    width: 520px;
+    z-index: 1;
+}
+
+#mainPara
+{
+    color: #FFFFFF;
+    font-family: open-sans-condensed,sans-serif;
+    font-size: 37px;
+    font-weight: 300;
+    line-height: 44px;
+    min-height: 96px;
+    padding-top: 80px;
+    z-index: 2;
+    width: 524px;
+}
+
+.paraBold
+{
+    font-family: open-sans-condensed,sans-serif;
+    font-weight: 700;
+}
+
+.mainText
+{
+    color: #FFFFFF;
+    font-family: open-sans,sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 31px;
+    min-height: 69px;
+    position: relative;
+    text-align: left;
+    width: 508px;
+    z-index: 70;
+    font-size: 14px;
+} 
+
+#appStoreButton_google 
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    padding-bottom: 8px;
+    position: relative;
+    width: 245px;
+    z-index: 13;
+}
+
+#appStoreButton_google:hover
+{
+    background-color: #FFFFFF;
+    min-height: 0;
+    width: 237px;
+}
+
+#appStoreButton_google.ButtonSelected
+{
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 0;
+    width: 237px;
+}
+
+#appStoreButton_google:hover #googlePlayParasDiv p, #appStoreButton_google:hover #googlePlayParasDiv span
+{
+    color: #669933;
+    visibility: inherit;
+}
+
+#appStoreButton_apple 
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    padding-bottom: 8px;
+    position: relative;
+    width: 237px;
+    z-index: 13;
+    margin-right: 20px;
+}
+
+#appStoreButton_apple:hover
+{
+    background-color: #FFFFFF;
+    min-height: 0;
+    width: 237px;
+}
+
+#appStoreButton_apple.ButtonSelected
+{
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 0;
+    width: 237px;
+}
+
+#appStoreButton_apple:hover #appStoreParasDiv p, #appStoreButton_apple:hover #appStoreParasDiv span
+{
+    color: #669933;
+    visibility: inherit;
+}
+
+.groupElements 
+{
+    display: inline;
+    float: left;
+}
+
+#stores
+{
+    padding-top: 60px;
+}
+
+#appstorePhoneImg
+{
+    background-image: url("ios_phone.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-color: rgba(0, 0, 0, 0);
+    height: 52px;
+    min-height: 52px;
+    left: 12px;
+    margin-right: -10000px;
+    margin-top: 5px;
+    position: relative;
+    vertical-align: top;
+    width: 32px;
+    min-width: 32px;
+    z-index: 15; 
+}
+
+#appStoreButton_apple:hover #appstorePhoneImg 
+{
+    background-image: url("ios_phone_hover.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#googlePlayPhoneImg
+{
+    background-image: url("android_phone.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-color: rgba(0, 0, 0, 0);
+    height: 45px;
+    min-height: 45px;
+
+    left: 13px;
+    margin-right: -10000px;
+    margin-top: 10px;
+    position: relative;
+    vertical-align: top;
+    width: 43px;
+    min-width: 43px;
+    z-index: 31;
+}
+
+#appStoreButton_google:hover #googlePlayPhoneImg 
+{
+    background-image: url("android_phone_hover.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#appStoreParasDiv 
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: open-sans-condensed,sans-serif;
+    font-weight: 300;
+    left: 69px;
+    margin-right: -10000px;
+    margin-top: 4px;
+    position: relative;
+    width: 143px;
+    z-index: 17;
+}
+
+#googlePlayParasDiv 
+{
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: open-sans-condensed,sans-serif;
+    font-weight: 300;
+    left: 74px;
+    margin-right: -10000px;
+    margin-top: 4px;
+    position: relative;
+    width: 150px;
+    z-index: 24;
+}
+
+.storesParas
+{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.storesParasBold
+{
+    font-size: 28px;
+    line-height: 27px;
+}
+
+.storesParasBold span
+{
+    font-family: open-sans-condensed,sans-serif;
+    font-weight: 700;
+}
