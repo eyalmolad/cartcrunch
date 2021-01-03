@@ -51,6 +51,11 @@
     
 }
 
+#team {
+    left: 324px;
+    width: 110px;
+}
+
 #twitter 
 {
     background-attachment: scroll;

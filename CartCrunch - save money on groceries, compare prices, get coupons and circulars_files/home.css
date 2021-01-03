@@ -76,6 +76,23 @@ html
     width: 524px;
 }
 
+#mainParaTeams {
+    color: #FFFFFF;
+    font-family: open-sans-condensed,sans-serif;
+    font-size: 37px;
+    font-weight: 200;
+    line-height: 44px;
+    min-height: 96px;
+    padding-top: 50px;
+    padding-left: 20px;
+    z-index: 2;
+    width: 524px;
+}
+
+.teamTitles {
+    font-size: 22px;
+}
+
 .paraBold
 {
     font-family: open-sans-condensed,sans-serif;
